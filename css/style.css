@@ -1,0 +1,48 @@
+:root {
+    --main-color: #37a560;
+    --second-color:#3549a0;
+    --nav-bgcolor : #f7f7f9;
+    --navhovercolor: #edfae1;
+    --navcolor: #5a5a5a;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+/* start navbars */
+
+.navbar-brand img {
+    width: 6.5em;
+}
+.navbar , .nav-item .dropdown-menu{
+    background-color: var(--nav-bgcolorcolor);
+}
+.navbar-light .navbar-nav .nav-link {
+    color:var(--navcolor);
+    border-top-left-radius: 0.6em;
+    border-bottom-right-radius: .6em;
+    transition: .5s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover  {
+
+    background-color:var(--navhovercolor);
+}
+
+.nav-item .nav-link {
+    text-align: right;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* end navbars */
+
+/* start hero section */
+
+
+
+
+/* end hero section */
