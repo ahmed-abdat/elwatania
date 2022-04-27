@@ -57,6 +57,9 @@ button {
 .nav-item .nav-link {
     padding-right: 1em;
 }
+.navbar-nav {
+    padding-right: 0;
+}
 /* end navbars */
 
 /* start hero section */
