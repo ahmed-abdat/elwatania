@@ -35,10 +35,13 @@ button {
     transition: .5s;
 }
 
-.navbar-light .navbar-nav .nav-link:hover ,.nav-link.active  {
+.navbar-light .navbar-nav .nav-link:hover  {
     background: linear-gradient(to right ,#249d529d,#35509b73);
 }
 
+.nav-link.active {
+    background: linear-gradient(to right ,#249d523b,#35509b3a);
+}
 .nav-item .nav-link {
     text-align: right;
 }
