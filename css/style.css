@@ -65,7 +65,7 @@ button {
 }
 /* end navbars */
 
-/* start hero section */
+/* start hero section first designe */
 
 button .slid-rgt {
     color: #000;
@@ -83,3 +83,56 @@ button .slid-rgt {
 }
 
 /* end hero section */
+
+/* hero seconde designe */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom , rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("../img/slide-4.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 48vh;
+    color: #fff;
+    
+}
+
+@media (max-width: 500px) {
+    .hero {
+        background-position: left;
+    }
+    .text {
+        width: 90vw;
+    }
+}
+
+.text {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+/* end hero seconde designe */
+
+/* start preloder */
+.preloder {
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+    position: absolute;
+    z-index: 100;
+    background: #1a87c5 url("../img/loader/2.gif") no-repeat center ;
+    background-size: 40%;
+}
+
+#loader.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+@media (max-width : 450px) {
+    .preloder {
+        background-size: 85%;
+    }
+}
+/* end preloder */
