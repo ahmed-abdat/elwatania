@@ -67,7 +67,19 @@ button {
 
 /* start hero section */
 
+button .slid-rgt {
+    color: #000;
+    background-color: #eee;
+    padding: 0.2em 0.3em;
+    background-color: #eee;
+    font-size: 1.2em;
+    opacity: 1;
+}
 
-
+@media (max-width: 500px) {
+    button .slid-rgt {
+        font-size: 1em;
+    }
+}
 
 /* end hero section */
